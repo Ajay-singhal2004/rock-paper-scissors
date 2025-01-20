@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: darkblue;
+    color: azure;
+    padding: 1rem;
+    font-size:4rem;
+    margin-bottom: 4rem;
+}
+.choice{
+    font-size: 5em;
+    padding: 3rem;
+    border-radius: 50%;
+    margin: 4rem;
+}
+#rock{
+    background-color: rgb(158, 219, 240);
+}
+#paper{
+    background-color: lightgreen;
+}
+#scisser{
+    background-color:lightpink;
+}
+.choice:hover{
+    box-shadow: 0 0 1rem blue;
+    color: blue;
+}
+.msg-score{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 2rem;
+}
+#your{
+    font-size: 4rem;
+}
+#comp{
+    font-size: 4rem;
+}
+#play{
+    background-color: #191913;
+    margin: 2rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    color:white;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem red;
+
+}
